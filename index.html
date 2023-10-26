@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Meu Portfólio</title>
+</head>
+<body>
+    <header>
+        <div id="profile">
+            <div id="profile-image">
+                <img src="seufoto.png.png" alt="Sua Foto">
+            </div>
+            <div id="profile-text">
+                <h1>Meu Portfólio Pessoal</h1>
+                <p>Desenvolvedor Full Stack</p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#" data-target="sobre-mim">Sobre Mim</a></li>
+            <li><a href="#" data-target="formacao">Formação Educacional e Idiomas</a></li>
+            <li><a href="#" data-target="portfolio">Portfólio de Projetos</a></li>
+            <li><a href="#" data-target="contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section id="sobre-mim">
+        <h2>Sobre Mim</h2>
+        <p>
+            Me chamo Anderson araujo de souza, tenho 29 e gosto muito de tudo que envolva tecnologia.
+        </p>
+    </section>
+
+    <section id="formacao">
+        <h2>Formação Educacional e Idiomas</h2>
+        <p>
+            Atualmente estou cursando Analise e desenvolvimento de sistemas, tenho certificaçoes cisco em python e em Analise de dados pela GOOGLE, tenho o inglês básico.
+        </p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfólio de Projetos</h2>
+        <p>
+            Atualmente possuo poucos projetos, um deles é um jogo da velha temático.
+        </p>
+        <div class="projeto">
+            <h3>Projeto Jogo da Velha</h3>
+            <p>Um jogo da velha temático desenvolvido usando apenas JavaScript, HTML e CSS.</p>
+            <a href="https://github.com/andersonaraujoz/Projeto-Jogo-da-Memoria-Javascript" target="_blank">Veja o Projeto</a>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+    <p>Entre em contato preenchendo o formulário abaixo:</p>
+    <form class="formulario-contato">
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu Nome Completo">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Seu Email">
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="Seu Número de Telefone">
+
+        <input type="submit" value="Enviar">
+    </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Anderson araujo de souza</p>
+    </footer>
+</body>
+</html>
